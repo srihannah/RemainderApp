@@ -1,0 +1,153 @@
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+/* Full-page layout */
+html, body {
+    width: 100%;
+    min-height: 100vh;
+    background: #f4f4f4;
+    color: #2d3436;
+    padding: 20px;
+}
+
+/* Centered Title */
+h1 {
+    text-align: center;
+    font-family: "Galada", cursive;
+    font-size: 32px;
+    color: #6c5ce7;
+    padding: 20px 0;
+    border-bottom: 2px solid #ddd;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 25px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+/* Table Headers */
+tr th {
+    background: #00b894;
+    color: white;
+    font-size: 18px;
+    padding: 12px;
+    text-transform: uppercase;
+}
+
+/* Table Cells */
+tr td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+    font-size: 16px;
+}
+
+/* Alternate Row Color */
+tr:nth-child(even) {
+    background: #f9f9f9;
+}
+
+/* Table Hover Effect */
+tr:hover {
+    background: rgba(0, 184, 148, 0.2);
+    transition: 0.3s;
+}
+
+/* Buttons */
+a, input[type=submit] {
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: inline-block;
+}
+
+/* Add Information Button */
+.add-btn {
+    display: block;
+    width: max-content;
+    margin: 20px auto;
+    background: #333;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-size: 16px;
+}
+.add-btn:hover {
+    background: #444;
+}
+
+/* Edit & Delete Buttons */
+.edit-btn {
+    background: #e84393;
+    color: white;
+    padding: 8px 20px;
+}
+.edit-btn:hover {
+    background: #d63031;
+}
+
+.delete-btn {
+    background: #d63031;
+    color: white;
+    padding: 8px 20px;
+}
+.delete-btn:hover {
+    background: #b71c1c;
+}
+
+/* Form Styling */
+form {
+    width: 100%;
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    margin-top: 10px;
+    display: block;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Submit Button */
+input[type="submit"] {
+    background: #00b894;
+    color: white;
+    width: 100%;
+    font-size: 16px;
+    padding: 12px;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+input[type="submit"]:hover {
+    background: #00897b;
+}
